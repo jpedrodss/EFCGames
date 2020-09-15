@@ -67,7 +67,7 @@ namespace EFCGames.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Jogo jogo)
+        public IActionResult Post(Jogo jogo)
         {
             try
             {

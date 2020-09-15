@@ -9,6 +9,6 @@ namespace EFCGames.Domains
     {
         public string Nome { get; set; }
         public string Descricao { get; set; }
-        //public DateTime DataLanc { get; set; }
+        public DateTime DataLanc { get; set; }
     }
 }

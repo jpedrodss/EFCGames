@@ -54,7 +54,7 @@ namespace EFCGames.Repositories
 
                 jogoTemp.Nome = jogo.Nome;
                 jogoTemp.Descricao = jogo.Descricao;
-                //jogoTemp.DataLanc = jogo.DataLanc;
+                jogoTemp.DataLanc = jogo.DataLanc;
 
                 _ctx.Jogos.Update(jogoTemp);
 
